@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+}
+.app {
+  margin: 0;
+  overflow: hidden;
+}
+html {
+  /* 62.5% = 10px */
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  box-sizing: border-box;
+}
+/* Responsive */
+.grid {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.header__title:nth-child(1){
+    color: #ccc;
+    margin-top: 30px;
+}
+.header__title:nth-child(2){
+    font-size: 40px;
+    color: black;
+}
+.header__title:nth-child(3){
+    letter-spacing: 4px;
+    color: #ccc;
+    margin-bottom: 30px;
+}
+.header__title{
+    margin: 10px;
+}
+.header{
+    text-align: center;
+    /* margin: 0 auto; */
+}
+.list__nav{
+    list-style: none;
+    display: flex;
+    
+}
+.item__nav{
+    font-size: 20px;
+    flex: 1;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+.item__nav:hover{
+    color: red;
+    cursor: pointer;
+}
+.header__nav{
+    padding: 10px;
+    border-top: 3px solid black;
+    border-bottom: 1px solid black;
+}
+.body__list--img{
+    display: flex;
+    
+}
+.body{
+    margin-top: 30px;
+}
+.img{
+    background-image: url("/ava.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    flex: 1;
+}
+.body__content{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.body__desc{
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 3px;
+    text-align: center;
+}
